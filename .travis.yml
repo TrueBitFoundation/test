@@ -6,6 +6,7 @@ node_js:
 
 before_install:
   - sudo apt-get update
+  - apt-get install -y git cmake ninja-build g++ python
   - git clone https://github.com/juj/emsdk
   - cd emsdk
   - ./emsdk update-tags
